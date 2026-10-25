@@ -21,12 +21,23 @@
 | primary on surface | 6.13:1 |
 | outline on surface | 4.33:1 (borders only, not text) |
 
-Role	Job	Hex
-error	Error messages, error borders	BA1A1A
-on-error	Text on an error background	FFFFFF
-Pair	Ratio
-on-error on error	6.46:1
-error on surface	6.13:1
+## Error roles (light theme)
+
+| Role | Job | Hex |
+|---|---|---|
+| error | Error messages, error borders | BA1A1A |
+| on-error | Text on an error-coloured background | FFFFFF |
+
+## Contrast checks for error (WebAIM)
+
+| Pair | Foreground | Background | Ratio |
+|---|---|---|---|
+| on-error on error | FFFFFF | BA1A1A | 6.46:1 |
+| error on surface | BA1A1A | F7F9FF | 6.13:1 |
+
+Both pairs pass the 4.5:1 bar for normal text. Neither reaches 7:1, so neither meets AAA.
+
+Error is never shown by colour alone. Every error will have a caution icon beside it.
 
 Error is never shown by colour alone. Every error will have a caution icon beside it
 
