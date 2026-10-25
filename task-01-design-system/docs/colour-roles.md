@@ -44,6 +44,16 @@ Error is never shown by colour alone. Every error will have a caution icon besid
 No tone in my ref primary list matches the primary role (30628C), so
 the roles are separate hex values and not references to the palette.
 
+Success: I chose a dark, muted green (316941) because it is easy on the
+eyes on a phone screen. It gets 6.18:1 on the surface, which passes the
+4.5:1 bar for normal text. The cost is that it is less eye-catching than
+a bright green, so every success message will also carry an icon.
+
+Warning: I chose a dark amber (855317) because I wanted my colour choices
+to be inclusive, and not rely on a conventional bright amber. It gets
+6.14:1 on the surface, which passes. A bright amber (F5A623) got [1.92:1]:1 in my own test, which fails. The cost is that a dark amber can
+look brown, so it may not read as a warning on its own, which is why every
+warning will also carry an icon.
 ## Tones
 
 
