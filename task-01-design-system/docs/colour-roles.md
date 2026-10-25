@@ -21,6 +21,15 @@
 | primary on surface | 6.13:1 |
 | outline on surface | 4.33:1 (borders only, not text) |
 
+Role	Job	Hex
+error	Error messages, error borders	BA1A1A
+on-error	Text on an error background	FFFFFF
+Pair	Ratio
+on-error on error	6.46:1
+error on surface	6.13:1
+
+Error is never shown by colour alone. Every error will have a caution icon beside it
+
 ## Known issue
 No tone in my ref primary list matches the primary role (30628C), so
 the roles are separate hex values and not references to the palette.
