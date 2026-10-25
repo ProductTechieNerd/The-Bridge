@@ -39,7 +39,6 @@ Both pairs pass the 4.5:1 bar for normal text. Neither reaches 7:1, so neither m
 
 Error is never shown by colour alone. Every error will have a caution icon beside it.
 
-Error is never shown by colour alone. Every error will have a caution icon beside it
 
 ## Known issue
 No tone in my ref primary list matches the primary role (30628C), so
